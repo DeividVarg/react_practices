@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: black;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: space-between;
+}
